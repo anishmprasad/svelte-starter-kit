@@ -1,15 +1,5 @@
 <script>
-	import Link from './Link.svelte';
-	import Route from './Route.svelte';
-	
 </script>
-
-<!-- Navigation goes here -->
-<Link page={{path: '/', name: 'Home'}} />
-<Link page={{path: '/about', name: 'About'}} />
-
-<!-- Main container goes here -->
-<Route />
 
 <style>
 	main {
@@ -25,6 +15,9 @@
 		font-size: 4em;
 		font-weight: 100;
 	}
+    h1 {
+		color: purple;
+	}
 
 	@media (min-width: 640px) {
 		main {
@@ -32,3 +25,8 @@
 		}
 	}
 </style>
+
+<main>
+<h1>This is About page</h1>
+
+</main>
