@@ -9,3 +9,7 @@
 # build
 
 # deploy
+
+# Licence
+
+MIT
